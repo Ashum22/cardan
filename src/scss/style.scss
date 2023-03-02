@@ -152,4 +152,11 @@ body {
 
 // Підключення стилів окремих сторінок
 @import "home";
+@import "typography";
 
+.intro-section {
+	min-height: 100vh;
+	background-image: url(@img/main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
