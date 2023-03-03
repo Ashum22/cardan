@@ -56,9 +56,10 @@
 */
 .header {
 	position: fixed;
-	top: 0;
+	padding-top: rem(30);
+	z-index: 2;
 
-	&__container {
+	&-container {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -73,7 +74,46 @@
 	&-info {
 		display: flex;
 		justify-content: space-between;
-		width: 20%;
+		width: 18%;
+		font-size: rem(14);
+		font-weight: 300;
+		line-height: rem(30);
+		&__worktime {
+			:nth-child(1)::before {
+				content: "";
+				background: url(@img/calendar.svg) no-repeat;
+				width: 20px;
+    			height: 20px;
+   				float: left;
+    			margin: 4px 6px 0 0;
+			}
+			:nth-child(2)::before {
+				content: "";
+				background: url(@img/clock.svg) no-repeat;
+				width: 20px;
+    			height: 20px;
+   				float: left;
+    			margin: 4px 6px 0 0;
+			}
+		}
+		&__contacts {
+			:nth-child(1)::before {
+				content: "";
+				background: url(@img/map.svg) no-repeat;
+				width: 20px;
+    			height: 20px;
+   				float: left;
+    			margin: 4px 6px 0 0;
+			}
+			:nth-child(2)::before {
+				content: "";
+				background: url(@img/phone.svg) no-repeat;
+				width: 20px;
+    			height: 20px;
+   				float: left;
+    			margin: 4px 6px 0 0;
+			}
+		}	
 	}
 	&-select {
 		width: 5%;

@@ -93,13 +93,13 @@ body {
 
 /*
 (i) Стилі будуть застосовуватись до
-всіх класів, що містять *__container
-Наприклад header__container, main__container і т.п.
+всіх класів, що містять *-container
+Наприклад header-container, main-container і т.п.
 Сніппет (HTML): cnt
 */
 @if ($responsiveType==1) {
 	// Чуйна
-	[class*="__container"] {
+	[class*="-container"] {
 		@if ($maxWidthContainer>0) {
 			max-width: rem($containerWidth);
 			margin: 0 auto;
@@ -115,7 +115,7 @@ body {
 	}
 } @else {
 	// Брейк-поїнтами
-	[class*="__container"] {
+	[class*="-container"] {
 		margin: 0 auto;
 		@if ($maxWidthContainer>0) {
 			max-width: rem($containerWidth);
@@ -155,8 +155,52 @@ body {
 @import "typography";
 
 .intro-section {
-	min-height: 100vh;
-	background-image: url(@img/main.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	&__one {
+		min-height: 100vh;
+		background-image: url(@img/1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	&__two {
+		min-height: 100vh;
+		background-image: url(@img/2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	&__three {
+		min-height: 100vh;
+		background-image: url(@img/3.jpeg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	&__four {
+		min-height: 100vh;
+		background-image: url(@img/4.jpeg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 }
+
+.intro-content {
+	display: flex;
+	flex-direction: column;
+	padding-top: rem(325);
+	padding-left: rem(234);
+	width: rem(680);
+	&__title {
+		margin-bottom: rem(20);
+		font-family: 'Oswald';
+    	font-size: rem(65);
+    	font-weight: bold;
+    	text-transform: uppercase;
+	}
+	&__p {
+		margin-top: rem(40);
+		margin-bottom: rem(40);
+		font-size: rem(20);
+		font-weight: bold;
+		line-height: rem(30);
+	}
+}
+
+
