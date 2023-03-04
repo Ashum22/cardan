@@ -64,7 +64,7 @@
 		justify-content: space-between;
 		align-items: center;
 		width: 100vw;
-		font-size: rem(20);
+		@include adaptiveValue('font-size', 20, 11);
 	}
 	&-menu {
 		display: flex;
@@ -73,15 +73,14 @@
 	}
 	&-info {
 		display: flex;
-		justify-content: space-between;
-		width: 18%;
-		font-size: rem(14);
+		@include adaptiveValue('font-size', 14, 11);
 		font-weight: 300;
 		line-height: rem(30);
 		&__worktime {
+			padding: 0 5px 0 5px;
 			:nth-child(1)::before {
 				content: "";
-				background: url(@img/calendar.svg) no-repeat;
+				background: url(../img/icons/calendar.svg) no-repeat;
 				width: 20px;
     			height: 20px;
    				float: left;
@@ -89,7 +88,7 @@
 			}
 			:nth-child(2)::before {
 				content: "";
-				background: url(@img/clock.svg) no-repeat;
+				background: url(../img/icons/clock.svg) no-repeat;
 				width: 20px;
     			height: 20px;
    				float: left;
@@ -97,9 +96,10 @@
 			}
 		}
 		&__contacts {
+			padding: 0 5px 0 5px;
 			:nth-child(1)::before {
 				content: "";
-				background: url(@img/map.svg) no-repeat;
+				background: url(../img/icons/map.svg) no-repeat;
 				width: 20px;
     			height: 20px;
    				float: left;
@@ -107,7 +107,7 @@
 			}
 			:nth-child(2)::before {
 				content: "";
-				background: url(@img/phone.svg) no-repeat;
+				background: url(../img/icons/phone.svg) no-repeat;
 				width: 20px;
     			height: 20px;
    				float: left;
