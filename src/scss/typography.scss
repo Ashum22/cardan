@@ -11,7 +11,9 @@ button {
     background-color: #1D59A0;
 }
 
-
+p {
+    line-height: rem(20);
+}
 
 
 
@@ -22,21 +24,16 @@ button {
     font-weight: bold;
     text-transform: uppercase;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.subtitle {
+    font-family: 'Oswald';
+    font-size: rem(26);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.dark-background {
+    background-color: RGBA(160,160,160,0.7);
+    
+}
 .is-lite {
     color: $colorLite;
 }

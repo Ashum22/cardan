@@ -156,6 +156,7 @@ body {
 
 
 .intro {
+	margin-bottom: rem(120);
 	&-slide {
 		position: relative;
 		display: flex;
@@ -178,7 +179,6 @@ body {
 		display: flex;
 		flex-direction: column;
 		padding-top: rem(0);
-		// padding-left: rem(234);
 		width: rem(480);
 		z-index: 3;
 		&__title {
@@ -197,4 +197,115 @@ body {
 		}
 	}
 }
+.advantages {
+	margin-bottom: rem(120);
+	&-title {
+		margin-bottom: rem(60);
+		line-height: rem(50);
+		&__text {
+			font-size: rem(20);
+		}
+		&__wrapper {
+			display: flex;
+			flex-direction: column;
+			width: 65%;
+			margin: 0 auto;
+			align-items: end;
+		}
+	}
+	&-cards {
+		position: relative;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		height: rem(321);
+		:nth-child(even) {
+			top: rem(90);
+		}
+		// :not(:nth-last-child(0)){
+		// 	margin-left: rem(29);
+		// }
+		&::after {
+			content: "";
+			position: absolute;
+			margin-top: rem(50);
+			height: rem(221);
+			width: 100vw;
+    		background-color: #1D59A0;
+    		z-index: -1;
+    		left: 50%;
+    		transform: translateX(-50%);
+		}
+		&__card {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+			width: rem(170);
+			height: rem(231);
+			background-color: #D7E5F5;
+			width: rem(170);
+			height: rem(231);
+			text-align: center;
+			&-icon {
+				width: rem(50);
+				height: rem(50);
+			}
+		}
+	}
+}
+.workprocess {
+	position: relative;
+	width: 90%;
+	height: rem(1140);
+	&-title-wrapper {
+		width: 52%;
+		margin: 0 auto;
+	}
+	&-title {
+		margin-bottom: rem(60)
+	}
+	&-wrapper {
+		display: flex;
+		width: 87%;
+	}
+	&-cardanimg {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		& img {
+		width: rem(198);
+		height: rem(610);
+		}
+		
+	}
+	&-background {
+		width: 70% ;
+		height: rem(700);
+		background-color: #1D59A0;
+	}
+	&-content-wrapper {
+		position: relative;
+		display: flex;
+		justify-content: end;
+		align-items: center;
+		width: 30%;
+	}
+	&-content {
+		display: flex;
+		position: absolute;
+		width: rem(900);
+		height: rem(460);
+		&__info {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: rem(370);
 
+		}
+		&__text {
+			line-height: rem(20);
+		}
+	}
+}

@@ -74,6 +74,8 @@
 	"dependencies": {
 		"gulp-cheerio": "^1.0.0",
 		"isotope-layout": "^3.0.6",
+		"node": "^19.6.1",
+		"puppeteer": "^19.7.2",
 		"simplebar": "latest"
 	}
 }
