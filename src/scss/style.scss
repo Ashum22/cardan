@@ -195,6 +195,9 @@ body {
 			font-weight: bold;
 			line-height: rem(30);
 		}
+		&__btn {
+
+		}
 	}
 }
 .advantages {
@@ -306,6 +309,75 @@ body {
 		}
 		&__text {
 			line-height: rem(20);
+		}
+	}
+}
+.services {
+	position: relative;
+	top: -235px;
+	width: 100vw;
+	height: rem(800);
+	&-title {
+		margin-bottom: rem(60);
+		text-align: center;
+	}
+	&-wrapper {
+		position: absolute;
+		right: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 90%;
+	}
+		
+	
+	&-background {
+		width: 46% ;
+		height: rem(700);
+		background-color: #1D59A0;
+		z-index: -2;
+	}
+	&-content-wrapper {
+		position: relative;
+		display: flex;
+		width: 44%;
+		align-items: center;
+	}
+	&-content {
+		display: flex;
+		position: absolute;
+		width: rem(1115);
+		height: rem(570);
+		
+		&__cards {
+			display: flex;
+			flex-wrap: wrap;
+			width: rem(900);
+			height: rem(370);	
+		}
+		&__card {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+			line-height: rem(20);
+			width: rem(270);
+			height: rem(270);
+			margin: 15px;
+			background-color: #D7E5F5;
+		}
+		&__btn {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+		}
+	}
+	&-card {
+		&__circle {
+			width: rem(60);
+			height: rem(60);
+			border-radius: 50%;
+			background-color: rgba(14, 51, 103, 0.1);
 		}
 	}
 }

@@ -278,3 +278,129 @@ Idle Latency:     2.92 ms   (jitter: 0.07ms, low: 2.82ms, high: 2.99ms)
  Packet Loss: Not available.
   Result URL: https://www.speedtest.net/result/c/e76ae62d-902a-48a8-afa4-aed18ceb9935
 
+3/9/2023, 9:16:20 AM
+
+   Speedtest by Ookla
+
+      Server: Adamant Ltd. - Kyiv (id: 5884)
+         ISP: Maximum Net
+Idle Latency:     2.85 ms   (jitter: 0.46ms, low: 2.02ms, high: 3.24ms)
+    Download:    91.51 Mbps (data used: 97.8 MB)                                                   
+                 10.39 ms   (jitter: 1.29ms, low: 1.87ms, high: 33.57ms)
+      Upload:    92.83 Mbps (data used: 141.1 MB)                                                   
+                110.02 ms   (jitter: 36.40ms, low: 5.93ms, high: 866.19ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/13d59c84-69fe-48ad-bf00-59442f56df3a
+
+3/9/2023, 9:46:05 AM
+
+   Speedtest by Ookla
+
+      Server: NashNet LLC - Kyiv (id: 16549)
+         ISP: Maximum Net
+Idle Latency:     2.91 ms   (jitter: 0.15ms, low: 2.79ms, high: 3.01ms)
+    Download:    88.95 Mbps (data used: 40.1 MB)                                                   
+                137.20 ms   (jitter: 40.70ms, low: 3.26ms, high: 339.87ms)
+      Upload:    92.36 Mbps (data used: 41.5 MB)                                                   
+                 94.81 ms   (jitter: 24.65ms, low: 6.02ms, high: 155.99ms)
+ Packet Loss: Not available.
+  Result URL: https://www.speedtest.net/result/c/f0b97320-dcec-4939-97dc-cc4675eb01d3
+
+3/10/2023, 7:49:15 AM
+
+   Speedtest by Ookla
+
+      Server: PROSTO - Kyiv (id: 6088)
+         ISP: Maximum Net
+Idle Latency:     1.94 ms   (jitter: 0.12ms, low: 1.82ms, high: 2.19ms)
+    Download:    86.21 Mbps (data used: 44.4 MB)                                                   
+                191.13 ms   (jitter: 53.59ms, low: 2.35ms, high: 456.59ms)
+      Upload:    92.43 Mbps (data used: 45.2 MB)                                                   
+                 90.96 ms   (jitter: 19.74ms, low: 6.69ms, high: 146.91ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/60e80301-9512-4357-a459-42a82f229949
+
+3/10/2023, 8:19:14 AM
+
+   Speedtest by Ookla
+
+      Server: KPI-Telecom - Kyiv (id: 30981)
+         ISP: Maximum Net
+Idle Latency:     2.63 ms   (jitter: 0.56ms, low: 1.92ms, high: 3.13ms)
+    Download:    90.61 Mbps (data used: 40.8 MB)                                                   
+                120.55 ms   (jitter: 35.88ms, low: 2.68ms, high: 304.37ms)
+      Upload:    92.35 Mbps (data used: 41.7 MB)                                                   
+                101.32 ms   (jitter: 26.46ms, low: 6.42ms, high: 160.08ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/ff248262-8e81-4e99-a564-2cd678acc6af
+
+3/10/2023, 8:49:25 AM
+
+   Speedtest by Ookla
+
+      Server: EUROTELE-PLUS LLC - Kyiv (id: 22290)
+         ISP: Maximum Net
+Idle Latency:     1.93 ms   (jitter: 0.08ms, low: 1.87ms, high: 2.02ms)
+    Download:    90.83 Mbps (data used: 150.5 MB)                                                   
+                352.36 ms   (jitter: 73.64ms, low: 2.05ms, high: 1035.11ms)
+      Upload:    93.85 Mbps (data used: 42.3 MB)                                                   
+                 98.95 ms   (jitter: 24.71ms, low: 4.39ms, high: 162.59ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/8918f081-762e-43f9-88d5-4094a5c40530
+
+3/10/2023, 9:19:18 AM
+
+   Speedtest by Ookla
+
+      Server: EUROTELE-PLUS LLC - Kyiv (id: 22290)
+         ISP: Maximum Net
+Idle Latency:     2.08 ms   (jitter: 0.22ms, low: 1.87ms, high: 2.53ms)
+    Download:    90.70 Mbps (data used: 87.3 MB)                                                   
+                275.93 ms   (jitter: 63.74ms, low: 1.93ms, high: 596.51ms)
+      Upload:    93.77 Mbps (data used: 42.2 MB)                                                   
+                 98.09 ms   (jitter: 25.75ms, low: 6.06ms, high: 159.58ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/beb988a1-65d4-42c3-891c-e3de30e08dde
+
+3/10/2023, 9:49:18 AM
+
+   Speedtest by Ookla
+
+      Server: Volia - Kyiv (id: 2518)
+         ISP: Maximum Net
+Idle Latency:     2.95 ms   (jitter: 0.17ms, low: 2.73ms, high: 3.03ms)
+    Download:    97.79 Mbps (data used: 81.5 MB)                                                   
+                314.64 ms   (jitter: 76.73ms, low: 2.92ms, high: 972.06ms)
+      Upload:    92.12 Mbps (data used: 41.5 MB)                                                   
+                 97.80 ms   (jitter: 26.30ms, low: 4.78ms, high: 155.78ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/976d1944-551f-4b5d-9d79-908c991bd829
+
+3/10/2023, 10:19:15 AM
+
+   Speedtest by Ookla
+
+      Server: UOS LLC - Kyiv (id: 54209)
+         ISP: Maximum Net
+Idle Latency:     2.81 ms   (jitter: 0.48ms, low: 2.05ms, high: 3.01ms)
+    Download:    91.84 Mbps (data used: 48.1 MB)                                                   
+                164.57 ms   (jitter: 47.47ms, low: 2.86ms, high: 397.66ms)
+      Upload:    90.33 Mbps (data used: 40.7 MB)                                                   
+                 34.01 ms   (jitter: 1.82ms, low: 5.89ms, high: 46.64ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/3c5eb782-796c-4dd0-9dfe-495895148215
+
+3/10/2023, 10:49:19 AM
+
+   Speedtest by Ookla
+
+      Server: UACITY LLC - Kyiv (id: 40505)
+         ISP: Maximum Net
+Idle Latency:     1.97 ms   (jitter: 0.40ms, low: 1.50ms, high: 2.31ms)
+    Download:    85.77 Mbps (data used: 82.7 MB)                                                   
+                274.13 ms   (jitter: 63.54ms, low: 2.15ms, high: 589.46ms)
+      Upload:    91.60 Mbps (data used: 41.3 MB)                                                   
+                100.82 ms   (jitter: 25.59ms, low: 5.59ms, high: 161.62ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/05c415e8-4a8e-41f7-a37d-1dd73750ae66
+
