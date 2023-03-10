@@ -359,7 +359,7 @@ body {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			justify-content: space-around;
+			justify-content: center;
 			line-height: rem(20);
 			width: rem(270);
 			height: rem(270);
@@ -369,7 +369,7 @@ body {
 		&__btn {
 			position: absolute;
 			right: 0;
-			bottom: 0;
+			bottom: rem(-16);
 		}
 	}
 	&-card {
@@ -378,6 +378,12 @@ body {
 			height: rem(60);
 			border-radius: 50%;
 			background-color: rgba(14, 51, 103, 0.1);
+		}
+		&__icon {
+			padding-left: rem(25);
+		}
+		&__text {
+			margin-top: rem(30);
 		}
 	}
 }
