@@ -56,8 +56,9 @@
 */
 .header {
 	position: fixed;
-	padding-top: rem(30);
-	z-index: 1;
+	padding-top: rem(15);
+	padding-bottom: rem(15);
+	z-index: 10;
 
 	&-container {
 		display: flex;
@@ -76,80 +77,112 @@
 		@include adaptiveValue('font-size', 14, 11);
 		font-weight: 300;
 		line-height: rem(30);
-		&__worktime {
+		&__column {
 			padding: 0 5px 0 5px;
-			:nth-child(1)::before {
+			li:before {
 				content: "";
-				background: url(../img/icons/calendar.svg) no-repeat;
 				width: 20px;
-    			height: 20px;
-   				float: left;
-    			margin: 4px 6px 0 0;
+				height: 20px;
+				float: left;
+				margin: 4px 6px 0 0;
 			}
-			:nth-child(2)::before {
-				content: "";
-				background: url(../img/icons/clock.svg) no-repeat;
-				width: 20px;
-    			height: 20px;
-   				float: left;
-    			margin: 4px 6px 0 0;
+			li {
+				&.icon-calendar:before {
+					background: url(../img/icons/calendar.svg) no-repeat;
+				}
+				&.icon-clock:before {
+					background: url(../img/icons/clock.svg) no-repeat;
+				}
+				&.icon-location:before {
+					background: url(../img/icons/map.svg) no-repeat;
+				}
+				&.icon-phone:before {
+					background: url(../img/icons/phone.svg) no-repeat;
+				}
 			}
 		}
-		&__contacts {
-			padding: 0 5px 0 5px;
-			:nth-child(1)::before {
-				content: "";
-				background: url(../img/icons/map.svg) no-repeat;
-				width: 20px;
-    			height: 20px;
-   				float: left;
-    			margin: 4px 6px 0 0;
-			}
-			:nth-child(2)::before {
-				content: "";
-				background: url(../img/icons/phone.svg) no-repeat;
-				width: 20px;
-    			height: 20px;
-   				float: left;
-    			margin: 4px 6px 0 0;
-			}
-		}	
+		// :nth-child(1)::before {
+		// 	content: "";
+		// 	background: url(../img/icons/calendar.svg) no-repeat;
+		// 	width: 20px;
+		// 	height: 20px;
+		// 	   float: left;
+		// 	margin: 4px 6px 0 0;
+		// }
+		// :nth-child(2)::before {
+		// 	content: "";
+		// 	background: url(../img/icons/clock.svg) no-repeat;
+		// 	width: 20px;
+		// 	height: 20px;
+		// 	   float: left;
+		// 	margin: 4px 6px 0 0;
+		// }
+		// &__contacts {
+		// 	padding: 0 5px 0 5px;
+		// 	:nth-child(1)::before {
+		// 		content: "";
+		// 		background: url(../img/icons/map.svg) no-repeat;
+		// 		width: 20px;
+    	// 		height: 20px;
+   		// 		float: left;
+    	// 		margin: 4px 6px 0 0;
+		// 	}
+		// 	:nth-child(2)::before {
+		// 		content: "";
+		// 		background: url(../img/icons/phone.svg) no-repeat;
+		// 		width: 20px;
+    	// 		height: 20px;
+   		// 		float: left;
+    	// 		margin: 4px 6px 0 0;
+		// 	}
+		// }	
 	}
 	&-select {
 		width: 5%;
 	} 
 }
-/* Dropdown Button */
-.droplink {
-  }
+
   
   /* The container <div> - needed to position the dropdown content */
-  .header-menu__dropdown {
+  .header-dropdown {
 	position: relative;
 	display: inline-block;
+	/* Dropdown Button */
+	&__link {
+		display: block;
+		margin-bottom: rem(10);
+	}
+	/* Dropdown Content (Hidden by Default) */
+	&__list {
+		display: none;
+		position: absolute;
+		padding-top: rem(10);
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		background-color: black;
+		z-index: 2;
+		/* Links inside the dropdown */
+		& a {
+			padding: 12px 16px;
+			display: block;
+			font-weight: 300;
+		}
+	  }
   }
   
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-	display: none;
-	position: absolute;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-  }
   
-  /* Links inside the dropdown */
+  
+  
+  
   .dropdown-content a {
-	padding: 12px 16px;
-	display: block;
-	font-weight: 300;
+	
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #808000;}
+  .header-dropdown__list a:hover {background-color: #1D59A0;}
   
   /* Show the dropdown menu on hover */
-  .header-menu__dropdown:hover .dropdown-content {display: block;}
+  .header-dropdown:hover .header-dropdown__list {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .header-menu__dropdown:hover .dropbtn {background-color: #3e8e41;}
+ // .header-dropdown:hover .header-dropdown__link {background-color: rgba(0,0,0,0.2);}

@@ -20,4 +20,4 @@ function runSpeedTest() {
 }
 
 runSpeedTest();
-setInterval(runSpeedTest, 60 * 60 * 500); // Run every hour
+setInterval(runSpeedTest, 60 * 60 * 1000); // Run every hour

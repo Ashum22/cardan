@@ -72,6 +72,7 @@ function initSliders() {
 			*/
 
 			// Кнопки "вліво/вправо"
+			/*
 			navigation: {
 				prevEl: '.swiper-button-prev',
 				nextEl: '.swiper-button-next',

@@ -404,3 +404,143 @@ Idle Latency:     1.97 ms   (jitter: 0.40ms, low: 1.50ms, high: 2.31ms)
  Packet Loss:     0.0%
   Result URL: https://www.speedtest.net/result/c/05c415e8-4a8e-41f7-a37d-1dd73750ae66
 
+3/10/2023, 11:19:23 AM
+
+   Speedtest by Ookla
+
+      Server: UACITY LLC - Kyiv (id: 40505)
+         ISP: Maximum Net
+Idle Latency:     1.99 ms   (jitter: 0.58ms, low: 1.87ms, high: 4.01ms)
+    Download:    82.50 Mbps (data used: 117.3 MB)                                                   
+                252.55 ms   (jitter: 62.44ms, low: 2.03ms, high: 631.56ms)
+      Upload:    91.80 Mbps (data used: 41.3 MB)                                                   
+                 97.90 ms   (jitter: 25.67ms, low: 5.46ms, high: 162.26ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/a1dff586-a8fd-4b2b-b448-81ac520cc208
+
+3/10/2023, 11:36:24 AM
+
+   Speedtest by Ookla
+
+      Server: ISP OmegaTelecom - Kyiv (id: 14203)
+         ISP: Maximum Net
+Idle Latency:     2.83 ms   (jitter: 0.38ms, low: 2.13ms, high: 2.87ms)
+    Download:   701.70 Mbps (data used: 727.0 MB)                                                   
+                  2.77 ms   (jitter: 2.91ms, low: 1.89ms, high: 204.62ms)
+      Upload:   836.18 Mbps (data used: 667.2 MB)                                                   
+                 10.25 ms   (jitter: 0.67ms, low: 4.03ms, high: 12.42ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/0a2b5c78-b9e4-4d00-aba9-45374f8e5c10
+
+3/13/2023, 8:31:20 AM
+
+   Speedtest by Ookla
+
+      Server: EUROTELE-PLUS LLC - Kyiv (id: 22290)
+         ISP: Maximum Net
+Idle Latency:     2.02 ms   (jitter: 0.35ms, low: 1.66ms, high: 2.60ms)
+    Download:   698.94 Mbps (data used: 1.3 GB)                                                   
+                  2.65 ms   (jitter: 3.22ms, low: 1.76ms, high: 209.25ms)
+      Upload:   822.71 Mbps (data used: 596.4 MB)                                                   
+                  8.20 ms   (jitter: 4.59ms, low: 3.05ms, high: 216.21ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/b682325b-1012-4f93-800c-96e6a88bf3fd
+
+3/13/2023, 9:31:08 AM
+
+   Speedtest by Ookla
+
+      Server: PROSTO - Kyiv (id: 6088)
+         ISP: Maximum Net
+Idle Latency:     2.03 ms   (jitter: 0.34ms, low: 1.85ms, high: 2.55ms)
+    Download:   702.58 Mbps (data used: 352.4 MB)                                                   
+                  2.74 ms   (jitter: 5.48ms, low: 1.68ms, high: 204.89ms)
+      Upload:   830.07 Mbps (data used: 405.4 MB)                                                   
+                  9.93 ms   (jitter: 0.66ms, low: 3.52ms, high: 12.26ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/a49b3af0-8906-447b-97f6-1fa5c70fc816
+
+3/13/2023, 10:31:08 AM
+
+   Speedtest by Ookla
+
+      Server: PROSTO - Kyiv (id: 6088)
+         ISP: Maximum Net
+Idle Latency:     2.01 ms   (jitter: 0.10ms, low: 1.85ms, high: 2.10ms)
+    Download:   750.25 Mbps (data used: 338.2 MB)                                                   
+                  2.47 ms   (jitter: 0.30ms, low: 1.54ms, high: 3.45ms)
+      Upload:   907.51 Mbps (data used: 453.9 MB)                                                   
+                  4.44 ms   (jitter: 0.50ms, low: 2.67ms, high: 5.61ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/f36a1431-ee04-4766-ae88-5379bb8f5937
+
+3/13/2023, 11:31:15 AM
+
+   Speedtest by Ookla
+
+      Server: EUROTELE-PLUS LLC - Kyiv (id: 22290)
+         ISP: Maximum Net
+Idle Latency:     2.02 ms   (jitter: 0.06ms, low: 1.90ms, high: 2.09ms)
+    Download:   697.63 Mbps (data used: 850.0 MB)                                                   
+                  2.53 ms   (jitter: 2.66ms, low: 1.65ms, high: 206.14ms)
+      Upload:   895.02 Mbps (data used: 529.0 MB)                                                   
+                  5.95 ms   (jitter: 0.90ms, low: 1.82ms, high: 12.69ms)
+ Packet Loss:     0.5%
+  Result URL: https://www.speedtest.net/result/c/a9088cec-5d10-4b67-9a88-dac4095af0fc
+
+3/13/2023, 12:31:11 PM
+
+   Speedtest by Ookla
+
+      Server: PROSTO - Kyiv (id: 6088)
+         ISP: Maximum Net
+Idle Latency:     1.94 ms   (jitter: 0.04ms, low: 1.89ms, high: 1.99ms)
+    Download:   713.22 Mbps (data used: 419.9 MB)                                                   
+                  2.69 ms   (jitter: 0.54ms, low: 1.91ms, high: 4.12ms)
+      Upload:   822.09 Mbps (data used: 573.7 MB)                                                   
+                 10.26 ms   (jitter: 0.67ms, low: 3.72ms, high: 11.85ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/67892e8c-2c12-4447-a645-928200066ff9
+
+3/13/2023, 1:31:13 PM
+
+   Speedtest by Ookla
+
+      Server: PROSTO - Kyiv (id: 6088)
+         ISP: Maximum Net
+Idle Latency:     1.99 ms   (jitter: 0.09ms, low: 1.86ms, high: 2.02ms)
+    Download:   677.22 Mbps (data used: 744.3 MB)                                                   
+                  2.74 ms   (jitter: 0.40ms, low: 2.03ms, high: 3.64ms)
+      Upload:   814.69 Mbps (data used: 407.4 MB)                                                   
+                 10.19 ms   (jitter: 0.62ms, low: 3.05ms, high: 11.81ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/d9e0fdbb-3d2a-48d1-8dca-3c727b915481
+
+6/14/2023, 9:02:40 AM
+
+   Speedtest by Ookla
+
+      Server: Vega.ua (Farlep-Invest PrJSC) - Kyiv (id: 6578)
+         ISP: Maximum Net
+Idle Latency:     1.93 ms   (jitter: 0.04ms, low: 1.89ms, high: 1.98ms)
+    Download:   694.22 Mbps (data used: 921.0 MB)                                                   
+                  2.64 ms   (jitter: 0.50ms, low: 1.69ms, high: 4.17ms)
+      Upload:   847.82 Mbps (data used: 426.4 MB)                                                   
+                  9.80 ms   (jitter: 0.71ms, low: 3.04ms, high: 11.65ms)
+ Packet Loss: Not available.
+  Result URL: https://www.speedtest.net/result/c/728d3d2e-70a4-43b1-98b2-1d1e02288782
+
+8/11/2023, 8:58:32 AM
+
+   Speedtest by Ookla
+
+      Server: PROSTO - Kyiv (id: 6088)
+         ISP: Maximum Net
+Idle Latency:     1.89 ms   (jitter: 0.12ms, low: 1.85ms, high: 2.03ms)
+    Download:   289.11 Mbps (data used: 387.9 MB)                                                   
+                  2.39 ms   (jitter: 0.48ms, low: 1.74ms, high: 3.31ms)
+      Upload:   291.36 Mbps (data used: 398.3 MB)                                                   
+                  2.53 ms   (jitter: 2.59ms, low: 1.50ms, high: 210.75ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/135d2194-2fef-4d59-aab8-2f3b979e5dc4
+
