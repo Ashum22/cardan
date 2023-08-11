@@ -544,3 +544,17 @@ Idle Latency:     1.89 ms   (jitter: 0.12ms, low: 1.85ms, high: 2.03ms)
  Packet Loss:     0.0%
   Result URL: https://www.speedtest.net/result/c/135d2194-2fef-4d59-aab8-2f3b979e5dc4
 
+8/11/2023, 9:58:32 AM
+
+   Speedtest by Ookla
+
+      Server: Vega.ua (Farlep-Invest PrJSC) - Kyiv (id: 6578)
+         ISP: Maximum Net
+Idle Latency:     2.71 ms   (jitter: 0.31ms, low: 1.97ms, high: 2.99ms)
+    Download:   275.40 Mbps (data used: 348.0 MB)                                                   
+                  2.39 ms   (jitter: 2.56ms, low: 1.61ms, high: 204.83ms)
+      Upload:   296.30 Mbps (data used: 391.4 MB)                                                   
+                  2.54 ms   (jitter: 6.59ms, low: 1.62ms, high: 212.10ms)
+ Packet Loss: Not available.
+  Result URL: https://www.speedtest.net/result/c/041d1075-3c13-4779-b739-2f612f60d8bc
+
